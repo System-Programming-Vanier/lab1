@@ -5,11 +5,12 @@
 *
 *	Complete this prolog header.
 *
-*
+*	2020
 ******************************************************************************/
 #include <allegro.h>
 
 int main(void) {
+
 	allegro_init();     
 	set_color_depth(24);
 	set_gfx_mode(GFX_SAFE, 640, 480, 0, 0);
