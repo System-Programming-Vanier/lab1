@@ -10,7 +10,7 @@
 #include <allegro.h>
 
 int main(void) {
-	allegro_init();  
+	allegro_init();     
 	set_color_depth(24);
 	set_gfx_mode(GFX_SAFE, 640, 480, 0, 0);
 	install_keyboard();
